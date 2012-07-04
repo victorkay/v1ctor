@@ -1,4 +1,4 @@
-/* All we ever wanted was opportunity */
+ /* All we ever wanted was opportunity */
 
 /*===================[ Reset ]========================*/
 /* html5doctor.com Reset v1.6.1 - http://cssreset.com */
@@ -7,7 +7,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /*===================[ Global ]========================*/
 
-body {background: #fff; font-size: 100%;}
+body {background: #fff; font-size: 100%; font-family: 'Glegoo', 'courier', sans-serif; font-weight: normal;}
 
 a:link, a:visited {
 color:#999999;
@@ -59,6 +59,92 @@ visibility: hidden;
 
 /*===================[ Header ]========================*/
 
-#top-nav{width: 100%; height: 50px; background: -webkit-linear-gradient(#000000 0%, #424242 100%)}
+header{width: 100%; height: 70px; background: -webkit-linear-gradient(#000000 0%, #424242 100%); position:fixed; top:0px;}
 
-#nav-list li{display: inline-block;}
+#nav-list{text-align: center; padding-top: 25px;}
+
+#nav-list li{display: inline-block; font-family: 'Glegoo', 'courier', sans-serif; font-weight: normal; text-transform: uppercase; font-size: 0.8em; padding-left: 20px; color:#999; }
+
+#nav-list li a:link, a:visited {
+color:#999;
+outline:none;
+text-decoration:none;
+}
+
+#nav-list li a:hover{color:#fff;
+}
+
+#logo{vertical-align: -25%;}
+
+/*===================[ Email Icon ]========================*/
+
+
+
+#email-icon {
+	background: url('email.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	height: 30px; width: 30px;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+#email-icon:hover { background-position: 0px -30px; }
+
+/*===================[ Footer ]========================*/
+
+#footer{width: 100%;
+height: 30px;
+position:fixed;
+bottom:0px;
+background-color:#000;
+text-align: center;
+}
+
+.footer-text {display: inline-block; font-family: 'Glegoo', 'courier', sans-serif; font-weight: normal; font-size: 0.7em; color:#999 ; padding-top: 10px; }
+
+.legal{position: fixed;
+	right: 20px;}
+	
+	
+	
+/*===================[ Projects Grid ]========================*/
+
+.grid {width:80%; max-width: 960px; margin: 0 auto;
+	padding-top: 90px; padding-bottom: 90px;
+}
+
+.project {
+float: left;
+padding:10px;
+overflow: hidden;
+}
+
+
+
+/*===================[ Contact Form ]========================*/
+
+#contact-form {padding-top:50px; width:700px; margin: 0 auto;}
+
+#contact-form fieldset {margin: 0 0 20px 0;}
+
+#contact-form fieldset label {display: block; margin: 0 0 10px 0;}
+
+#contact-form fieldset input,
+#contact-form fieldset textarea { width: 700px; padding: 5px; font-size: 1.2em; border: none; border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #dfdfdf url(form-input.gif) repeat-x top left; border-radius: 5px; -moz-border-radius: 5px;}
+
+#contact-form fieldset input:focus,
+#contact-form fieldset textarea:focus {background: #ffe5e5;}
+
+
+
+
+
+
+
+
