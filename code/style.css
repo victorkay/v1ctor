@@ -7,7 +7,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /*===================[ Global ]========================*/
 
-body {background: #fff; font-size: 100%; font-family: 'Glegoo', 'courier', sans-serif; font-weight: normal;}
+body {background: #fbfbfb; font-size: 100%; font-family: 'Glegoo', 'courier', sans-serif; font-weight: normal;}
 
 h1 {font-size: 3em; line-height: 3em;}
 
@@ -106,6 +106,86 @@ text-decoration:none;
 
 #email-icon:hover { background-position: 0px -30px; }
 
+
+/*===================[ About Page ]========================*/
+
+#slideshow{max-width: 900px; position: relative; float: left; z-index: -999;}
+
+#quote h1{font-size: 3em; line-height: 1.5em;}
+
+#profile{width: 40%;}
+
+#services{width: 40%;}
+
+#get-in-touch{width: 80%;}
+
+#get-in-touch ul li {display: inline; padding-left: 50px;}
+
+		
+	
+/*===================[ Projects Grid ]========================*/
+
+.content {width:80%; max-width: 960px; margin: 0 auto;
+	padding-top: 90px; padding-bottom: 90px;
+}
+
+.project {
+float: left;
+padding:10px;
+overflow: hidden;
+}
+
+
+
+/*===================[ Contact Form ]========================*/
+
+    
+    
+.contact-form ol li {line-height: 30px; list-style: none; padding: 5px 10px; margin-bottom: 2px;} 
+
+
+.contact-form label { float: left; font-size: 13px; width: 400px;}
+
+
+
+
+
+
+
+
+
+
+.contact-form {padding-top:50px; width:80%; margin: 0 auto;}
+
+.contact-form fieldset {margin-bottom:10px;}
+
+.contact-form fieldset label {display: block; margin-bottom: 10px; width: auto; line-height: 20px;}
+
+.contact-form legend {color: #262626; font-size: 1.7em; font-weight: bold; padding-bottom: 10px; text-shadow: 0 1px 1px #c0d576; }
+
+.contact-form fieldset input,
+.contact-form fieldset textarea { width: 700px; padding: 5px; font-size: 1.2em; border: none; border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #dfdfdf url(form-input.gif) repeat-x top left; border-radius: 5px; -moz-border-radius: 5px;}
+
+.contact-form fieldset input:focus,
+.contact-form fieldset textarea:focus {background: #fff;}
+
+    
+.contact-form button {background: #444444; border: none; -moz-border-radius: 7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px; border-radius: 7px;
+    color: #ffffff;
+    display: block;
+    font: 'Glegoo', 'courier', sans-serif; font-size: 2em;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #000000;
+    text-transform: uppercase;
+    }
+    
+.contact-form button:hover {background: #ff00cc; cursor: pointer;}
+
+
+
+
 /*===================[ Footer ]========================*/
 
 #footer{width: 100%;
@@ -120,36 +200,6 @@ text-align: center;
 
 .legal{position: fixed;
 	right: 20px;}
-	
-	
-	
-/*===================[ Projects Grid ]========================*/
-
-.grid {width:80%; max-width: 960px; margin: 0 auto;
-	padding-top: 90px; padding-bottom: 90px;
-}
-
-.project {
-float: left;
-padding:10px;
-overflow: hidden;
-}
-
-
-
-/*===================[ Contact Form ]========================*/
-
-#contact-form {padding-top:50px; width:700px; margin: 0 auto;}
-
-#contact-form fieldset {margin: 0 0 20px 0;}
-
-#contact-form fieldset label {display: block; margin: 0 0 10px 0;}
-
-#contact-form fieldset input,
-#contact-form fieldset textarea { width: 700px; padding: 5px; font-size: 1.2em; border: none; border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #dfdfdf url(form-input.gif) repeat-x top left; border-radius: 5px; -moz-border-radius: 5px;}
-
-#contact-form fieldset input:focus,
-#contact-form fieldset textarea:focus {background: #ffe5e5;}
 
 
 
